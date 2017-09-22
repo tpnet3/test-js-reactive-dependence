@@ -9,7 +9,6 @@ class Main {
     setTimeout(() => {
       console.log("==============================");
       console.log("main.js: setTimeout()");
-      console.log("==============================");
       this.value.set(1000);
     }, 1000);
 
